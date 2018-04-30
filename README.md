@@ -1,11 +1,6 @@
 # Measurement Kit pre-built binaries
 
-This repository contains pre-built binaries. Files should have the
-following naming:
-
-```
-<product>-<version>-<platform>-<architecture>-<build>.tar.gz
-```
-
-Dashes in any of the above placeholders should be replaced with
-underscores to make the name more easily parseable.
+This repository contains pre-built binaries. It is currently mainly used by
+the [measurement-kit/script-build-unix](
+https://github.com/measurement-kit/script-build-unix) to fetch precompiled
+binaries. The binaries SHA256 sum is part of `script-build-unix`.
